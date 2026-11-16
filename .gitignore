@@ -1,0 +1,18 @@
+# Personal data: your CV, applications and search goal stay on your laptop only
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files from safe writes
+*.tmp
+
+# Secrets (never commit API keys)
+.env
+
+# macOS
+.DS_Store
